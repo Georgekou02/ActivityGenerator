@@ -1,0 +1,78 @@
+*
+{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+
+header
+{
+    text-align: center;
+}
+
+section
+{
+    text-align: center;
+}
+
+form
+{
+    margin-top: 10rem;
+}
+
+.Requirements
+{
+    color: rgb(165, 39, 39);
+    text-transform: capitalize;
+}
+
+.Label
+{
+    display: inline-block;
+    margin-right: 55px;
+    width: 30px;
+}
+
+input
+{
+    width: 200px;
+}
+
+.Username
+{
+    margin-bottom: 1rem;
+}
+
+.Password
+{
+    margin-bottom: 1rem;
+}
+
+#CaptchaField
+{
+    margin-top: 2rem;
+    margin-right: 25px;
+    width: 50px;
+}
+#CaptchaImg:hover
+{
+    cursor:zoom-in;
+    width: 150px;
+}
+#ChangeCaptchaBtn
+{
+    border: none;
+    text-transform: capitalize;
+    margin-left: 138px;
+}
+#ChangeCaptchaBtn:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#RegisterBtn
+{
+    cursor: pointer;
+    margin-top: 2rem;
+}
