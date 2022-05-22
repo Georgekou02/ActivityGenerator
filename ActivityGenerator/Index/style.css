@@ -1,0 +1,59 @@
+*
+{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(42, 150, 158);
+    text-align: center;
+}
+
+#LogoutBtn
+{
+    display: flex;
+    color: blue;
+    justify-content: right;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+#ActivityContainer
+{
+    display: inline-block;
+    border: 2px solid rgb(44, 44, 44);
+    width: 60vw;
+    padding: 45px;
+    margin-top: 15vh;
+}
+#ActivityContainer label,span
+{
+    font-size: 1.5rem;
+}
+#ActivityContainer span
+{
+    font-weight: bolder;
+    color: rgb(0, 10, 56);
+    text-transform: capitalize;
+}
+#ActivityContainer div
+{
+    margin-top: 1rem;
+}
+
+#ChooseAnotherActivityContainer
+{
+    padding-top: 2.5rem;
+}
+#ChangeActivityBtn
+{
+    cursor: pointer;
+    text-transform: capitalize;
+    border: none;
+    font-size: 1.25rem;
+    background-color: lightblue;
+    color: blue;
+}
